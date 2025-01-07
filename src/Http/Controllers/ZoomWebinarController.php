@@ -77,4 +77,43 @@ class ZoomWebinarController extends ZoomAuthController
             ];
         }
     }
+    // create  webinar template
+    public function getAllWebinarTemplate(array $data)
+    {
+
+        try {
+            $response = $this->client->request('POST', 'users/me/webinar_templates', [
+                'json' => $data,
+            ]);
+            $res = json_decode($response->getBody(), true);
+            return [
+                'status' => true,
+                'data' => $res,
+            ];
+        } catch (\Throwable $th) {
+            return [
+                'status' => false,
+                'message' => $th->getMessage(),
+            ];
+        }
+    }
+
+    public function createWebinarRegistrant(array $data){
+        try {
+
+            $response = $this->client->request('POST', 'users/me/registrants', [
+                'json' => $data,
+            ]);
+            $res = json_decode($response->getBody(), true);
+            return [
+                'status' => true,
+                'data' => $res,
+            ];
+        } catch (\Throwable $th) {
+            return [
+                'status' => false,
+                'message' => $th->getMessage(),
+            ];
+        }
+    }
 }
