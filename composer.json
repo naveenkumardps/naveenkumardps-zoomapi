@@ -17,5 +17,12 @@
             "name": "naveenkumar",
             "email": "naveenkumar.dps@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+      "laravel": {
+        "providers": [
+          "naveenkumardps\\zoomapi\\Providers\\ZoomServiceProvider"
+        ]
+      }
+    }
 }
