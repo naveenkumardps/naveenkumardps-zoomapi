@@ -3,7 +3,7 @@
     "description": "For zoom api",
     "type": "library",
     "require": {
-        "php": "^7",
+        "php": "^8.1",
         "phpunit/phpunit": "*"
     },
     "license": "MIT",
