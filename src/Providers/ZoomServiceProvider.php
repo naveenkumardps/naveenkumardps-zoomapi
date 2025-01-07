@@ -1,6 +1,8 @@
 <?php
 
-namespace naveenkumardps\zoomapi\Providers;
+namespace Naveenkumardps\Zoomapi\Providers;
+
+use Illuminate\Support\ServiceProvider;
 
 class ZoomServiceProvider extends ServiceProvider
 {

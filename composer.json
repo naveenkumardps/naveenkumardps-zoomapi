@@ -1,28 +1,21 @@
 {
     "name": "naveenkumardps/zoomapi",
-    "description": "For Zoom api",
+    "description": "For zoom api",
     "type": "library",
     "require": {
-        "php": "^8.1",
+        "php": "^7",
         "phpunit/phpunit": "*"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Naveen\\Zoomapi\\": "src/"
+            "Naveenkumardps\\Zoomapi\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "naveenkumar",
-            "email": "naveenkumar.dps@gmail.com"
+            "name": "Naveenkumardps",
+            "email": "naveenumar.dps@gmail.com"
         }
-    ],
-    "extra": {
-      "laravel": {
-        "providers": [
-          "naveenkumardps\\zoomapi\\Providers"
-        ]
-      }
-    }
+    ]
 }
