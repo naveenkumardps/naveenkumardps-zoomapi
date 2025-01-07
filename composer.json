@@ -21,7 +21,7 @@
     "extra": {
       "laravel": {
         "providers": [
-          "naveenkumardps\\zoomapi\\Providers\\ZoomServiceProvider"
+          "naveenkumardps\\zoomapi\\Providers"
         ]
       }
     }
