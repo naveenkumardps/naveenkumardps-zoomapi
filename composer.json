@@ -1,0 +1,22 @@
+{
+    "name": "naveen/zoomapi",
+    "description": "For Zoom api",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "phpunit/phpunit": "11.5.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Naveen\\Zoomapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "naveenkumar",
+            "email": "naveenkumar.dps@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
